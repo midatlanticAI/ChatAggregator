@@ -1,0 +1,38 @@
+{
+  "id": "0VAd0xnOy6NFgrW_U-Lpi",
+  "title": "New Chat",
+  "messages": [
+    {
+      "id": "TviFiD_TbfWW_nYDSVRJ9",
+      "content": "hello",
+      "role": "user",
+      "timestamp": "2024-12-12T17:51:36.935Z",
+      "provider": "gemini"
+    },
+    {
+      "id": "GG7QRmDE8Um2E2mf69UBo",
+      "content": "[GEMINI] Hello there! My name is Gemini. I am a multi-modal AI model developed by Google. I am excited to engage in this collaborative chat with you today. How can I assist you?",
+      "role": "assistant",
+      "timestamp": "2024-12-12T17:51:38.437Z",
+      "provider": "gemini"
+    },
+    {
+      "id": "dykBGzQDZTXcWlLZ9W05h",
+      "content": "how do you define mathematics?",
+      "role": "user",
+      "timestamp": "2024-12-12T17:52:02.853Z",
+      "provider": "all"
+    },
+    {
+      "id": "g8Uf1BePQnnrGzKoVuJjK",
+      "content": "[GEMINI]: Mathematics is the science that deals with the logic of shape, quantity and arrangement. Math is all around us, in everything we do. It is the building block for everything in our daily lives, including mobile devices, computers, software, architecture (ancient and modern), art, money, engineering and even sports.",
+      "role": "assistant",
+      "timestamp": "2024-12-12T17:52:14.861Z",
+      "provider": "gemini"
+    }
+  ],
+  "provider": "openai",
+  "model": "gpt-4o",
+  "createdAt": "2024-12-12T17:45:43.742Z",
+  "updatedAt": "2024-12-12T17:52:14.861Z"
+}

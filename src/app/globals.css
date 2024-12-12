@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add custom scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0, 0, 0, 0.2) transparent;
+}
+
+/* Ensure proper height calculations */
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+}
+
+/* Custom utility for stable scrollbar gutter */
+.scrollbar-gutter-stable {
+  scrollbar-gutter: stable;
+}
+
+:root {
+  --primary: theme('colors.violet.500');
+  --primary-foreground: theme('colors.white');
+  --secondary: theme('colors.gray.100');
+  --secondary-foreground: theme('colors.gray.900');
+  --accent: theme('colors.violet.500');
+  --accent-foreground: theme('colors.white');
+}
+
+body {
+  @apply bg-secondary text-secondary-foreground;
+}
+
+/* Reset default styles */
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+textarea {
+  line-height: 1.5;
+} 

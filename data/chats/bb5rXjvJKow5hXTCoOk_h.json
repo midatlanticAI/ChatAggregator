@@ -1,0 +1,66 @@
+{
+  "id": "bb5rXjvJKow5hXTCoOk_h",
+  "title": "New Chat",
+  "messages": [
+    {
+      "id": "MbimQ_Q65wrr6ldJczZJv",
+      "content": "hello",
+      "role": "user",
+      "timestamp": "2024-12-12T16:53:43.222Z",
+      "provider": "openai"
+    },
+    {
+      "id": "tLiu_pH5jqyN4m9CxnLqy",
+      "content": "hello",
+      "role": "user",
+      "timestamp": "2024-12-12T16:53:50.661Z",
+      "provider": "anthropic"
+    },
+    {
+      "id": "00mEJQ4T6O-zxN8RpFHUP",
+      "content": "Hello!",
+      "role": "assistant",
+      "timestamp": "2024-12-12T16:53:51.291Z",
+      "provider": "anthropic"
+    },
+    {
+      "id": "BL6aTBt8ZhkWsk3ISlM_7",
+      "content": "hello",
+      "role": "user",
+      "timestamp": "2024-12-12T16:53:56.206Z",
+      "provider": "gemini"
+    },
+    {
+      "id": "9tCid1Ejbe_7onKQI4Tyj",
+      "content": "hey",
+      "role": "user",
+      "timestamp": "2024-12-12T16:56:03.463Z",
+      "provider": "gemini"
+    },
+    {
+      "id": "T94zMAM6NtlrT8a-j9lIt",
+      "content": "[GEMINI]: Hi there! I'm Gemini, a multimodal AI model from Google. How may I assist you today?",
+      "role": "assistant",
+      "timestamp": "2024-12-12T16:56:04.728Z",
+      "provider": "gemini"
+    },
+    {
+      "id": "ME6yWETxhqJuzJROMduu9",
+      "content": "hi",
+      "role": "user",
+      "timestamp": "2024-12-12T16:56:10.240Z",
+      "provider": "openai"
+    },
+    {
+      "id": "ane53GbYBkj72OXfE5eXt",
+      "content": "Hello! It's great to see everyone here. How can we help you today?",
+      "role": "assistant",
+      "timestamp": "2024-12-12T16:56:17.090Z",
+      "provider": "openai"
+    }
+  ],
+  "provider": "all",
+  "model": "gpt-4o",
+  "createdAt": "2024-12-12T16:41:03.110Z",
+  "updatedAt": "2024-12-12T16:56:17.090Z"
+}
