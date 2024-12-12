@@ -19,7 +19,7 @@ A powerful chat interface that allows simultaneous interaction with multiple AI 
 * Node.js 18+ installed
 * NPM or Yarn package manager
 * API keys from:
-  * OpenAI (GPT-4)
+  * OpenAI (GPT-4o)
   * Anthropic (Claude)
   * Google AI Studio (Gemini)
 
@@ -96,9 +96,9 @@ GOOGLE_API_KEY=       # Required for Gemini integration
 ```
 
 ### Model Settings
-* OpenAI: GPT-4 Turbo
+* OpenAI: GPT-4o-latest
 * Anthropic: Claude 3.5 Sonnet
-* Gemini: Gemini Pro
+* Gemini: Gemini 1.5 flash
 
 ## Usage
 
