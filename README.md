@@ -1,5 +1,7 @@
 # Chat Aggregator
 
+# Chat Aggregator
+
 A powerful chat interface that allows simultaneous interaction with multiple AI models (OpenAI, Anthropic, and Google's Gemini) in a collaborative environment.
 
 ## Features
@@ -31,7 +33,18 @@ A powerful chat interface that allows simultaneous interaction with multiple AI 
    cd ChatAggregator
    ```
 
+   ```bash
+   git clone https://github.com/midatlanticAI/ChatAggregator.git
+   cd ChatAggregator
+   ```
+
 2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
    ```bash
    npm install
    # or
@@ -45,7 +58,19 @@ A powerful chat interface that allows simultaneous interaction with multiple AI 
    GOOGLE_API_KEY=your_google_key_here
    ```
 
+   ```env
+   OPENAI_API_KEY=your_openai_key_here
+   ANTHROPIC_API_KEY=your_anthropic_key_here
+   GOOGLE_API_KEY=your_google_key_here
+   ```
+
 4. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
    ```bash
    npm run dev
    # or
@@ -54,6 +79,9 @@ A powerful chat interface that allows simultaneous interaction with multiple AI 
 
 Open http://localhost:3000 in your browser
 
+## Project Structure
+
+```
 ## Project Structure
 
 ```
@@ -70,6 +98,26 @@ ChatAggregator/
 │   └── services/       # API service layers
 ├── public/             # Static assets
 └── styles/            # Global styles
+```
+
+## Key Components
+
+### Chat Interface
+* ChatContainer: Main chat interface component
+* ChatHeader: Model selection and controls
+* MessageList: Displays chat messages
+* ChatInput: Message input with send functionality
+
+### Model Integration
+* Individual API routes for each model
+* Proper error handling and rate limiting
+* Message history management
+* Collaborative response formatting
+
+## Configuration
+
+### Environment Variables
+```env
 ```
 
 ## Key Components
@@ -122,9 +170,25 @@ GOOGLE_API_KEY=       # Required for Gemini integration
 
 ### Running Tests
 ```bash
+3. Each model will respond in sequence
+4. Models can reference and interact with each other's responses
+
+### Chat Management
+* Clear Chat: Clears current chat history
+* New Chat: Starts a fresh conversation
+* Chat History: Automatically saved locally
+
+## Development
+
+### Running Tests
+```bash
 npm run test
 # or
 yarn test
+```
+
+### Building for Production
+```bash
 ```
 
 ### Building for Production
@@ -149,7 +213,34 @@ yarn build
 
 ## License
 
+```
+
+### Code Style
+* Uses ESLint and Prettier
+* TypeScript strict mode enabled
+* Follows Next.js best practices
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+* Built with Next.js
+* UI components from shadcn/ui
+* Styling with Tailwind CSS
+* Icons from Lucide
+
+## Support
+
 
 ## Acknowledgments
 
